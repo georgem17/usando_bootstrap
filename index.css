@@ -1,0 +1,164 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+body img{
+  width: 100%;
+}
+
+body .recetas {
+text-align: center;
+justify-content: center;
+}
+
+body .recetas img {
+  width: 300px;
+}
+
+body .recetas h3 {
+  font-size: 15px;
+}
+
+body .recetas div{
+   padding: 20px
+}
+body .recetas button{
+ background-color: transparent;
+}
+body .present h3{
+  text-align: center;
+}
+
+body .present p{
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+}
+body .general .carousel-item{
+  text-align: center;
+}
+
+body .carousel-item img{
+  width: 650px;
+}
+
+/* mobile */
+nav .navbar{
+  display: flex;
+}
+nav .navbar-container{
+  display: flex;
+}
+nav .navbar-container .navbar-item{
+  list-style: none;
+}
+nav .navbar-container .navbar-item a{
+  text-decoration: none;
+  color: #2C272E;
+  padding: 10px;
+}
+header .logo a img{
+  width: 200px;
+}
+
+.navbar-header {
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+/* .navbar-menu-mobile {
+  color: #2C272E;
+  border: 1px solid #FFFFFF;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-decoration: none;
+} */
+/* 
+.navbar-container {
+  position: absolute;
+  background: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.4s ease; 
+  margin: 0px;
+  padding: 0px;
+} */
+
+/* nav .navbar-container .navbar-item{
+  padding: 10px 0px;
+}
+
+.navbar-link {
+  font-size: 1.5rem; 
+} */
+/* 
+#navbar-header:target .navbar-container {
+  height: 300px; 
+} */
+
+/* #navbar-header:target .open {
+  display: none; 
+}
+
+#navbar-header:target .close {
+  display: flex; 
+} */
+
+.close {
+  display: none; 
+}
+
+@media (min-width: 900px) {
+  body .recetas {
+    display: flex;
+  }
+}
+
+/* registrar */
+
+footer  img{
+  width: 100px;
+}
+
+footer{
+  text-align: center;
+}
+
+footer .ins{
+  width: 75px;
+}
+
+body form {
+  padding: 25px;
+}
+
+/* animacion */
+.anima img{
+  width: 200px;
+}
+
+.anima{
+  animation-name: animacion;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  position: relative;
+  text-align: center;
+
+}
+
+@keyframes animacion {
+  25%{-moz-transform: rotate(339deg);
+    -webkit-transform: rotate(339deg);
+    -o-transform: rotate(339deg);
+    -ms-transform: rotate(339deg);
+    transform: rotate(339deg);}
+}
+
